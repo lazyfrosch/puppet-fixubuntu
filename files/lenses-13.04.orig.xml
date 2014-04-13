@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/com/canonical/unity/lenses/" id="com.canonical.Unity.Lenses" gettext-domain="libunity">
+    <key type="s" name="remote-content-search">
+      <default>'all'</default>
+      <choices><choice value='all'/><choice value='none'/></choices>
+      <summary>Content fetching from remote source preference.</summary>
+      <description>"all" is to enable the supported default lens to search from remote and commercial sources. "none" will indicate the lenses to not perform that remote search at all.</description>
+    </key>
+  </schema>
+</schemalist>
